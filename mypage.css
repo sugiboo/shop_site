@@ -1,0 +1,384 @@
+/* ヘッダー */
+.container {
+  padding: 10px 0;
+}
+.h-title {
+  position: relative;
+  height: 100px;
+  display: flex;
+  border-radius: 8px;
+  background-image: url(image/more-leaves-on-green.png);
+}
+.h-brand {
+  display: flex;
+}
+.h-brand-logo {
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+}
+.h-name {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding: 10px;
+  font-family: "Courier New";
+}
+.h-entry {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+.h-list {
+  display: inline-block;
+  font-size: 12px;
+}
+.h-list a{
+  text-decoration: none;
+}
+.h-box {
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+}
+.h-box:hover {
+  color: coral;
+}
+
+/* ヘッダーナビバー */
+.h-nav {
+  position: relative;
+  height: 50px;
+}
+.h-category {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.h-item-menu {
+  list-style: none;
+  display: flex;
+}
+.h-item-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+.h-item-list a:hover .h-item-box {
+  color: forestgreen;
+}
+.h-item-box {
+  padding: 10px;
+}
+
+
+/* メインバー */
+.main {
+  padding: 20px;
+}
+.m-section {
+  margin-bottom: 30px;
+}
+.m-h3 {
+  font-family: HiraMinProN-W3;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: saddlebrown;
+  background:linear-gradient(to right, #B8860B, #CD853F, #DAA520)
+}
+.m-h4 {
+  padding: 20px 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.m-img {
+  padding-bottom: 30px;
+}
+.leather {
+  height: auto;
+  max-width: 100%;
+}
+.m-item-menu {
+  position: relative;
+  padding-bottom: 80px;
+}
+.m-item-list {
+  display: flex;
+}
+.m-item-box {
+  font-size: 14px;
+}
+.m-item-product {
+  list-style: none;
+  margin-top: 20px;
+}
+.m-item {
+  width: 70%;
+  margin-left: 20px;
+}
+.m-note {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+  transform: translate(50%, 50%);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: gainsboro;
+}
+.m-note a {
+  text-decoration: none;
+  color: black;
+}
+.m-note a:hover {
+  color: forestgreen;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.m-top-info, .m-bottom-info {
+  display: flex;
+  margin: 20px;
+}
+.m-info-img {
+  width: 60%;
+  border-radius: 4px;
+}
+.m-info-content {
+  font-size: 11px;
+}
+
+
+/* サイドバー */
+.side {
+  padding: 20px;
+}
+.s-h4 {
+  font-size: 16px;
+  padding: 20px 10px;
+  border-bottom: 1px solid black;
+}
+.s-list {
+  margin-bottom: 50px;
+}
+.s-genre-menu a {
+  text-decoration: none;
+  color: black;
+}
+.s-genre-list {
+  padding: 20px 10px;
+  list-style: none;
+  font-size: 14px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.s-genre-list:hover .s-genre-box {
+  color: forestgreen;
+}
+.s-item-list {
+  display: flex;
+
+}
+.s-item-box {
+  margin: 10px;
+
+}
+.s-item {
+  width: 70%;
+}
+.secondary-list {
+  position: relative;
+  padding-bottom: 50px;
+}
+.s-note {
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  transform: translate(-20%, 50%);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: gainsboro;
+}
+.s-note a {
+  text-decoration: none;
+  color: black;
+}
+.s-note a:hover {
+  color: forestgreen;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.s-schedule {
+  margin-bottom: 20px;
+}
+.schedule {
+  max-width: 80%;
+}
+.s-sns-box {
+  text-align: center;
+}
+.s-sns-menu {
+  padding: 10px;
+}
+.s-sns-menu a {
+  color: black;
+  text-decoration: none;
+}
+.s-sns-list {
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.s-sns-box {
+  padding: 20px 10px;
+  border-radius: 4px;
+  color: white;
+}
+.sns {
+  margin-bottom: 10px;
+}
+.follow:hover {
+  color: white;
+}
+.twitter {
+  background-color: #1DA1F2;
+}
+.instagram {
+  background:linear-gradient(to right, #4C64D3, #CF2E92, #F26939, #FFDD83)
+}
+.facebook {
+  background-color: #1877f2;
+}
+
+
+/* フッター */
+.footer {
+  background-color: darkgrey;
+}
+.f-brand {
+  text-align: center;
+  margin: 20px 0;
+}
+.f-rabbit {
+  width: 20%;
+}
+.f-sns-menu {
+  text-align: center;
+}
+.f-sns-list {
+  display: inline-block;
+}
+.f-sns-list a {
+  color: black;
+  text-decoration: none;
+}
+.f-sns-list a:hover {
+  color: whitesmoke;
+}
+.f-sns-box {
+  margin: 10px;
+}
+.f-menu {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.f-list {
+  display: inline-block;
+  margin: 10px;
+}
+.f-list a {
+  color: black;
+  text-decoration: none;
+}
+.f-list a:hover  {
+  color: white;
+}
+
+
+/* レスポンシブデザイン */
+@media all and (min-width: 768px){
+  .hamburger {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px){
+  /* ヘッダー */
+  .h-name {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 10px;
+    font-family: "Courier New";
+  }
+  .fa-bars {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  /* サイドバー */
+  .s-item-menu {
+    display: flex;
+  }
+  .s-item-list {
+    display: flex;
+  }
+  .s-item {
+    width: 70%;
+  }
+
+  /* フッター */
+  .f-menu {
+    text-align: left;
+  }
+  .f-list {
+    display: block;
+    margin: 10px 0;
+    border-bottom: 1px solid white;
+  }
+  .f-box {
+    padding: 10px 20px;
+  }
+}
+.nav-invisible {
+  display: none;
+}
+#nav-contents {
+  position: absolute;
+  top: 95px;
+  right: 10%;
+  transform: translate(10%, 0%);
+  z-index: 100;
+  height: auto;
+  width: 100%;
+  background-image: url(image/more-leaves-on-green.png);
+  transition: .3s;
+  opacity: 0;
+  border-radius: 4px;
+}
+#nav-input:checked ~ #nav-contents {
+  opacity: .8;
+}
+.sp-menu {
+  padding-left: 0;
+}
+.sp-menu-list {
+  margin: 20px;
+  list-style: none;
+}
+.sp-menu-list a {
+  text-decoration: none;
+  color: black;
+}
+.sp-menu-list a:hover {
+  color: coral;
+}
+.sp-menu-box {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  padding: 10px;
+}
